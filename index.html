@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+
+    <form name="form_main">
+        <label for="task">Tarefa:</label>
+        <input type="text" name="task"
+        id="task"/> <br>
+        <button id= "btn" type="button" onclick="add()">Add</button>
+    </form>
+
+    <fieldset>
+        <legend>Tarefas:</legend>
+        <ul>
+            <li>Limpar Casa</li>
+            <li>Outras</li>
+        </ul>
+    </fieldset>
+</body>
+<script src="adcionar.js"></script>
+</html>
